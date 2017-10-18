@@ -1,0 +1,74 @@
+Kids Books Use Cases
+
+I The user browses a bestseller list.
+
+1. The user goes to the index page.
+2. The user selects an age range.
+3. The system displays a list of the top ten books from the current year.
+
+2b. The user selects a year.
+3b. The system displays the top ten books from the selected year.
+
+
+The user wants to make a book available to borrow.
+
+1. The user goes to the index page.
+2. The user logs in with their email and password.
+3. The user selects the manage books option from the navigation bar.
+4. The system displays the user's library and also a form.
+5. The user enters the title of the book.
+6. The system confirms the ISBN of the book.
+7. The system makes the book available for borrowing.
+8. The system confirms that the book has been added.
+
+6b. The system asks the user to confirm the ISBN of the book.
+6c. The system allow the user to comfirm the ISBN of the book by scanning the barcode with their phone.
+
+The user does not want to share the book anymore.
+
+1. The user goes to the index page.
+2. The user logs in with their email and password.
+3. The user selects the manage books option from the navigation bar.
+4. The user clicks the remove button next to the book.
+5. The system ensures that the book is no longer available to borrow.
+
+A user borrwos a book.
+
+1. The user goes to the index page.
+2. The user logs in with their email and password.
+3. The user enters a search parameter.
+4. The system returns a list of books that are the closest match.
+5. The user selects one of these books.
+6. The system will display the book with options on how to get the book.
+7. The user will borrow the book if it is available by select the user that they are borrowing it from.
+8. The system updates the status of the book for the owner.
+9. The user is redirected to the index page.
+
+9b. The system sends an email to the owner of the book indicating who wishes to borrow the book.
+
+A user returns a book.
+
+1. The owner goes to the index page.
+2. The owner logs in with their email and password.
+3. The owner selects the manage books option from the navigation bar.
+4. The owner sets the book back to available.
+
+A user allows another user to access their library.
+
+1. The user goes to the index page.
+2. The user logs in with their email and password.
+3. The user selects the manage friends option from the navigation bar.
+4. The system displays a search box.
+5. The user enters a search parameter to find their friend.
+6. The system displays a list of matching results.
+7. The user selects from the list.
+8. The system allows this user to access the library.
+
+A user removes access to their library.
+
+1. The user goes to the index page.
+2. The user logs in with their email and password.
+3. The user selects the manage friends option from the navigation bar.
+4. The system displays a list of users that have access to their library.
+5. The user clicks the remove button.
+6. The system removes the user's access to that library.
