@@ -1,6 +1,6 @@
 Kids Books Use Cases
 
-I The user browses a bestseller list.
+I. The user browses a bestseller list.
 
 1. The user goes to the index page.
 2. The user selects an age range.
@@ -10,7 +10,7 @@ I The user browses a bestseller list.
 3b. The system displays the top ten books from the selected year.
 
 
-The user wants to make a book available to borrow.
+II. The user wants to make a book available to borrow.
 
 1. The user goes to the index page.
 2. The user logs in with their email and password.
@@ -22,9 +22,9 @@ The user wants to make a book available to borrow.
 8. The system confirms that the book has been added.
 
 6b. The system asks the user to confirm the ISBN of the book.
-6c. The system allow the user to comfirm the ISBN of the book by scanning the barcode with their phone.
+6c. The system allow the user to confirm the ISBN of the book by scanning the barcode with their phone.
 
-The user does not want to share the book anymore.
+III. The user does not want to share the book anymore.
 
 1. The user goes to the index page.
 2. The user logs in with their email and password.
@@ -32,7 +32,7 @@ The user does not want to share the book anymore.
 4. The user clicks the remove button next to the book.
 5. The system ensures that the book is no longer available to borrow.
 
-A user borrwos a book.
+IV. A user borrows a book.
 
 1. The user goes to the index page.
 2. The user logs in with their email and password.
@@ -46,14 +46,14 @@ A user borrwos a book.
 
 9b. The system sends an email to the owner of the book indicating who wishes to borrow the book.
 
-A user returns a book.
+V. A user returns a book.
 
 1. The owner goes to the index page.
 2. The owner logs in with their email and password.
 3. The owner selects the manage books option from the navigation bar.
 4. The owner sets the book back to available.
 
-A user allows another user to access their library.
+VI. A user allows another user to access their library.
 
 1. The user goes to the index page.
 2. The user logs in with their email and password.
@@ -64,7 +64,7 @@ A user allows another user to access their library.
 7. The user selects from the list.
 8. The system allows this user to access the library.
 
-A user removes access to their library.
+VII. A user removes access to their library.
 
 1. The user goes to the index page.
 2. The user logs in with their email and password.
